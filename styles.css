@@ -1,0 +1,32 @@
+*{
+    margin: 2vh;
+}
+.cuerpo{
+    background-color:#FFF2F1;
+}
+h1 {
+    display:inline; 
+}
+.U{
+    color: blue;
+}
+.V{
+    color: green;
+}
+.aula{
+    margin-top: 2vh;
+    display:inline; 
+}
+.separador{
+    height: 1vh;
+    background-color: black;
+}
+.containers{
+    border-radius: 10px;
+    border: 2px solid #000000;
+    height: 20vh;
+    background-color:#119DA4;
+}
+#icon{
+    width: 20px;
+}
