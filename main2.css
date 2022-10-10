@@ -25,7 +25,6 @@ body {
 
 .contenido {
     text-align: center;
-    height: 60vh;
     width: 100vw;
 }
 
@@ -35,9 +34,13 @@ body {
     border: 2px solid;
     border-radius: 4px;
 }
-
+ul {
+    list-style: none;
+}
 .pasos {
-    padding-left: 125px;
+    margin-top: 0%;
+    list-style:none;
+    text-align: center;
 }
 
 .botones {
@@ -95,4 +98,10 @@ body {
     margin-right: 10px;
     float: right;
     width: 50px;
+}
+.dos-1{
+    height: 50vh;
+}
+.separador{
+    height: 5vh;
 }
