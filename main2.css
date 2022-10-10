@@ -7,6 +7,7 @@ h1 {
 h3 {
     text-align: center;
     margin-top: 0%;
+    margin: 5px;
 }
 
 
@@ -28,7 +29,7 @@ body {
     width: 100vw;
 }
 
-img {
+.imagen-centro {
     width: 300px;
     height: 200px;
     border: 2px solid;
@@ -90,4 +91,8 @@ img {
     height: 110px;
     margin-top: 2px;
 }
-
+#retroceso{
+    margin-right: 10px;
+    float: right;
+    width: 50px;
+}
