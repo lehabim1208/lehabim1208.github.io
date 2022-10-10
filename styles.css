@@ -4,14 +4,8 @@
 .cuerpo{
     background-color:#FFF2F1;
 }
-h1 {
+h1, .inl{
     display:inline; 
-}
-.U{
-    color: blue;
-}
-.V{
-    color: green;
 }
 .aula{
     margin-top: 2vh;
@@ -29,4 +23,11 @@ h1 {
 }
 #icon{
     width: 20px;
+}
+#retroceso{
+    float: right;
+    width: 50px;
+}
+.logo-home{
+    width: 70px;
 }
