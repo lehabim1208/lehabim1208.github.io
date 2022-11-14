@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="estilos/login.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link  rel="icon" href="imagenes/logo.png" type="image/png" />
+    <title>Mi UVcación</title>
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Cabecera -->
+          <h2 class="active"> Iniciar sesión </h2>
+      
+          <!-- Icono -->
+          <div class="fadeIn first">
+            <img src="imagenes/logo.jpg" id="icon" alt="User Icon" />
+          </div>
+      
+          <!-- Inicio de sesión -->
+          <form action="paginas/home.html" id="formulario">
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="Matrícula" required>
+            <input type="text" id="password" class="fadeIn third" name="login" placeholder="Contraseña" required>
+            <input type="submit" class="fadeIn fourth" value="Entrar">
+          </form>
+      
+          <!-- Olvidé contraseña -->
+          <div id="formFooter">
+            <a class="underlineHover" target="_blank" href="https://dsia.uv.mx/cuentas/modicont/inicio">¿Olvidaste tu contraseña?</a>
+          </div>
+      
+        </div>
+      </div>
+</body>
+</html>
