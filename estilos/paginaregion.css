@@ -1,0 +1,110 @@
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0%;
+    margin: 5px;
+}
+
+
+body {
+    background-color: FFF2F1;
+    margin: 0%;
+}
+
+.header {
+   
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+}
+
+.contenido {
+    text-align: center;
+    width: 100vw;
+}
+
+.imagen-centro {
+    width: 300px;
+    height: 200px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+ul {
+    list-style: none;
+}
+.pasos {
+    margin-top: 0%;
+    list-style:none;
+    text-align: center;
+}
+
+.botones {
+    text-align: center;
+    width: 100vw;
+    height: 20vh;
+
+}
+
+.llegada {
+    border: none;
+    background-color: black;
+    border-radius: 4PX;
+    color: white;
+    width: 200px;
+    height: 20px;
+}
+
+.sigue {
+    padding-top: 30px;
+}
+
+.search {
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-top: 0%;
+}
+
+
+.region {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+.region:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.bsc {
+    margin: 0px;
+}
+
+.ciudad {
+    height: 110px;
+    margin-top: 2px;
+}
+#retroceso{
+    margin-right: 10px;
+    float: right;
+    width: 50px;
+}
+.dos-1{
+    height: 50vh;
+}
+.separador{
+    height: 5vh;
+}
+.filtro{
+    display: none;
+}
