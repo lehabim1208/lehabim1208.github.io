@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="../estilos/styles.css">
     <link  rel="icon" href="../imagenes/logo.png" type="/image/png" />
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi UVcación</title>
 </head>
@@ -15,28 +14,33 @@
     <div class="separador"></div>
     <a href="../index.html"><img src="../imagenes/retroceso.png" id="retroceso" alt="Icono" /></a>
     <h3>Materias</h3>
+
     <label class="titulos">Estructuras</label>
     <div class="containers container1">
         <p class="enlinea aula">Aula: F402</p>
-        <a class=" enlinea aula btn btn-success btn-sm" href="pagina2.html">¿Cómo llegar?<img src="../imagenes/ubicar-rojo.png" id="icon" alt="icono" /></a>
+        <button class=" enlinea aula btn btn-success btn-sm" id="boton1">¿Cómo llegar?<img src="../imagenes/ubicar-rojo.png" id="icon" alt="icono" /></button>
         <p>NRC: 83575</p>
     </div>
 
     <label class="titulos">Sistemas Web</label>
     <div class="containers container2">
         <p class="aula">Aula: F204</p>
-        <a class=" aula btn btn-success btn-sm" href="pagina2.html">¿Cómo llegar?<img src="../imagenes/ubicar-rojo.png" id="icon" alt="icono" /></a>
+        <button class=" enlinea aula btn btn-success btn-sm" id="boton2">¿Cómo llegar?<img src="../imagenes/ubicar-rojo.png" id="icon" alt="icono" /></button>
         <p>NRC: 45536</p>
     </div>
 
     <label class="titulos">Servidores</label>
     <div class="containers container3">
         <p class="aula">Aula: F202</p>
-        <a class=" aula btn btn-success btn-sm" href="pagina2.html">¿Cómo llegar?<img src="../imagenes/ubicar-rojo.png" id="icon" alt="icono" /></a>
+        <button class=" enlinea aula btn btn-success btn-sm" id="boton3">¿Cómo llegar?<img src="../imagenes/ubicar-rojo.png" id="icon" alt="icono" /></button>
         <p>NRC: 92847</p>
     </div>
     <div>
         <a href="paginaregion.html" class="footer btn btn-info">Buscar facultad o region</a>
     </div>
+
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../scripts/sweetAlert.js"></script>
 </body>
 </html>
